@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Steve Clark — DevSecOps &amp; Cloud Infrastructure</title>
-<meta name="description" content="Steve Clark — 25+ years architecting cloud infrastructure, DevOps automation, and security compliance for highly available platforms.">
+<title>Steve Clark — Principal DevSecOps Engineer</title>
+<meta name="description" content="Steve Clark — Principal DevSecOps Engineer &amp; Infrastructure Security Architect. 25+ years in cloud security, hardened image pipelines, and zero-trust platform engineering.">
 <style>
   :root {
     --bg: #0b0f14;
@@ -99,6 +99,11 @@
     font-size: 1.15rem;
     font-weight: 600;
     margin: 0 0 20px;
+  }
+  .hero .location {
+    color: var(--text-dim);
+    font-size: 0.92rem;
+    margin: 0 0 18px;
   }
   .hero .summary {
     color: var(--text-dim);
@@ -231,12 +236,16 @@
 <main>
   <section class="hero">
     <h1>Steve Clark</h1>
-    <p class="title">DevSecOps &amp; Cloud Infrastructure Leader</p>
+    <p class="title">Principal DevSecOps Engineer &amp; Infrastructure Security Architect</p>
+    <p class="location">📍 Sarasota, FL</p>
     <p class="summary">
-      25+ years architecting cloud infrastructure and leading DevOps transformation for highly available,
-      security-conscious platforms. Known for building the AWS GovCloud architecture behind Mobile Passport
-      and Airside Digital Identity, standing up CI/CD platforms that reshaped release cycles, and carrying
-      teams through SOC 2 and PCI compliance without slowing them down.
+      DevSecOps Subject Matter Expert with 25+ years in IT infrastructure, cloud security, and platform
+      engineering. Deep expertise designing and operating secure, hardened cloud platforms across AWS GovCloud,
+      Azure Public/Government, and GCP. Proven record leading large-scale datacenter-to-cloud migrations,
+      achieving sustained SOC 2 and PCI compliance, and implementing zero-trust security architectures in
+      highly regulated federal and enterprise environments. Known for operationalizing DISA STIG compliance
+      pipelines, driving DevSecOps cultural adoption, and delivering mission-critical platforms with 99.99%+
+      availability.
     </p>
     <div class="links">
       <a class="btn primary" href="mailto:steve@bigsteve.us">Email me</a>
@@ -251,70 +260,81 @@
 
     <div class="card">
       <div class="card-head">
-        <h3>Director of Operations</h3>
-        <span class="period">2018 – 2023</span>
+        <h3>Senior DevSecOps Engineer</h3>
+        <span class="period">Jan 2024 – Present</span>
       </div>
-      <div class="org">Airside Mobile, Inc. · Herndon, VA</div>
+      <div class="org">SAP · Remote</div>
       <ul>
-        <li>Designed the AWS GovCloud architecture behind the Mobile Passport platform and the Airside Digital Identity app.</li>
-        <li>Built a Dockerized HashiStack (Nomad, Consul, Vault) platform to run multiple environments.</li>
-        <li>Stood up a cloud-based CI release platform on CircleCI/Jenkins, streamlining build and release cycles.</li>
-        <li>Reached a 90% CIS compliance score by implementing AWS Security Hub.</li>
-        <li>Maintained 99.99% platform availability while executing disaster recovery and reducing downtime.</li>
-        <li>Carried the AWS platform through multiple years of SOC 2 compliance audits.</li>
-        <li>Migrated the Mobile Passport backend out of a datacenter and into a highly available GovCloud HashiStack.</li>
+        <li>Architect and manage production of 600+ unique DISA-hardened golden images monthly across 7 cloud platforms — AWS, Azure Public, Azure Government, GCP, OpenStack, and additional sovereign cloud environments.</li>
+        <li>Own the end-to-end golden image pipeline from security requirements through automated build, compliance validation, and release using HashiCorp Packer and Concourse CI.</li>
+        <li>Enforce DISA STIGs, CIS benchmarks, and internal SAP security controls through automated compliance pipelines.</li>
+        <li>Replaced legacy bash-based hardening workflows with Ansible, improving consistency and auditability across all 7 cloud platforms.</li>
+        <li>Lead and mentor a team of 8 engineers responsible for image lifecycle, vulnerability remediation, and secure release management.</li>
+        <li>Supported development of a FIPS-hardened SAP BTP Cloud Foundry stemcell built for sovereign cloud deployments.</li>
       </ul>
     </div>
 
     <div class="card">
       <div class="card-head">
         <h3>Owner</h3>
-        <span class="period">2017 – 2018</span>
+        <span class="period">2017 – Present</span>
       </div>
       <div class="org">Clark IT Consulting</div>
-      <p class="note">Independent consultancy helping Operations and Engineering teams — largely in the federal
-        government space — move toward automation and CI pipelines for infrastructure and application releases.</p>
+      <p class="note">Independent consultancy run alongside full-time engineering roles, helping Operations and
+        Engineering teams — largely in the federal government space — adopt automation and CI/CD pipelines for
+        infrastructure and application releases.</p>
     </div>
 
     <div class="card">
       <div class="card-head">
-        <h3>Chief Admin Developer</h3>
-        <span class="period">2016 – 2018</span>
+        <h3>Director of Operations</h3>
+        <span class="period">Oct 2018 – Sep 2023</span>
       </div>
-      <div class="org">Newgen Technologies Inc · Baltimore/Washington Area</div>
+      <div class="org">Airside Mobile · Remote</div>
       <ul>
-        <li>Built an end-to-end environment stack for development, testing, and deployment.</li>
-        <li>Drove OS compliance across AIX and Red Hat by developing Chef cookbooks and configuration baselines.</li>
-        <li>Wrote Terraform plans for IBM PowerVC and vSphere to provision and manage AIX and Red Hat hosts.</li>
-        <li>Designed and implemented a full Chef infrastructure inside a fully air-gapped environment.</li>
+        <li>Architected and operated a multi-account AWS GovCloud environment supporting Mobile Passport and Airside Digital Identity, maintaining 99.99% uptime across SLA-bound production systems.</li>
+        <li>Led the full migration of the Mobile Passport platform from a traditional datacenter to AWS GovCloud.</li>
+        <li>Designed and deployed a Docker-based platform on HashiCorp Nomad, Consul, and Vault for zero-trust secrets management across multiple environments.</li>
+        <li>Standardized infrastructure provisioning via Terraform and built CI/CD pipelines on Jenkins and CircleCI.</li>
+        <li>Achieved and sustained multiyear SOC 2 compliance and kept AWS Security Hub scores above 90%.</li>
       </ul>
     </div>
 
     <div class="card">
       <div class="card-head">
-        <h3>System Administration → Storage → Network Operations → Telecommunications</h3>
-        <span class="period">2004 – 2016</span>
+        <h3>Principal DevOps Engineer</h3>
+        <span class="period">Jul 2016 – Oct 2018</span>
       </div>
-      <div class="org">NeuStar, Inc. · Sterling, VA</div>
+      <div class="org">TSA Secure Flight — DHS · Annapolis Junction, MD</div>
       <ul>
-        <li>Progressed from Network Ops Tier 1 through Telecommunications Engineer, Storage Engineer, and into Sr. System Administrator over a 12-year span.</li>
-        <li>Led build/migration teams through a private cloud migration spanning 1,000+ critical servers across primary and secondary data centers.</li>
-        <li>Automated deployments with Chef cookbooks and Python Fabric scripts across the core Linux/Unix estate.</li>
-        <li>Served as technical lead for the company's first Hadoop/Hive big data cluster — 40 nodes, 2 petabytes.</li>
-        <li>Ran backup, DR, and SAN/storage operations (EMC, HP DataProtector) across a ~2,000-system environment.</li>
-        <li>Built and maintained the Avaya/Asterisk telecom estate, including SIP trunking for 900+ extensions across global offices.</li>
+        <li>Championed and drove DHS approval and adoption of HashiCorp Vault, Terraform, and Packer in a highly regulated, air-gapped federal environment — the agency's first DevOps implementation.</li>
+        <li>Implemented full Chef infrastructure in an air-gapped network, enforcing standardized OS security baselines across AIX and Red Hat.</li>
+        <li>Developed Terraform plans for IBM PowerVC and VMware vSphere for consistent, auditable infrastructure.</li>
       </ul>
     </div>
 
     <div class="card">
       <div class="card-head">
-        <h3>Sr. Technical Support Engineer → Enterprise Systems Administrator</h3>
-        <span class="period">1997 – 2001</span>
+        <h3>Sr. Systems Administrator / Staff Systems Administrator</h3>
+        <span class="period">Sep 2011 – Jun 2016</span>
       </div>
-      <div class="org">Electronic Health Information</div>
-      <p class="note">Started on the support desk, promoted to oversee technical support staff, then to enterprise
-        systems administration for a high-availability website farm and corporate WAN infrastructure spanning
-        multiple data centers.</p>
+      <div class="org">Neustar · Sterling, VA</div>
+      <ul>
+        <li>Migrated 1,000+ critical systems to a private cloud environment using PXE and Kickstart automation.</li>
+        <li>Led the company's first Big Data (Hadoop/HIVE) deployment — 40 nodes, 2 petabytes of storage.</li>
+        <li>Developed and maintained infrastructure Chef cookbooks and introduced continuous deployment via improved Kickstart and Chef bootstrap workflows.</li>
+        <li>Implemented TACACS+ and LDAP access integration on Cisco MDS fiber switches, centralizing authentication across data centers.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Earlier Experience</h3>
+        <span class="period">1997 – 2011</span>
+      </div>
+      <p class="note">Network Operations, Storage Engineering, and Telecommunications roles at NeuStar, Inc.
+        (2004–2011). Sr. Technical Support Engineer → Enterprise Systems Administrator, Electronic Health
+        Information (1997–2001).</p>
     </div>
   </section>
 
@@ -322,59 +342,75 @@
     <h2>Skills</h2>
     <div class="skills-grid">
       <div class="skill-group">
-        <h4>Cloud &amp; Infrastructure</h4>
+        <h4>Cloud Platforms</h4>
         <div class="tags">
-          <span class="tag">AWS</span>
-          <span class="tag">AWS GovCloud</span>
-          <span class="tag">AWS Security Hub</span>
-          <span class="tag">VMware</span>
-          <span class="tag">Xen</span>
-          <span class="tag">KVM</span>
-          <span class="tag">Virtualization</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <h4>Automation &amp; IaC</h4>
-        <div class="tags">
-          <span class="tag">Terraform</span>
-          <span class="tag">Chef</span>
-          <span class="tag">HashiStack</span>
-          <span class="tag">Nomad</span>
-          <span class="tag">Consul</span>
-          <span class="tag">Vault</span>
-          <span class="tag">Jenkins</span>
-          <span class="tag">CircleCI</span>
-          <span class="tag">Python Fabric</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <h4>Systems Administration</h4>
-        <div class="tags">
-          <span class="tag">Red Hat Enterprise Linux</span>
-          <span class="tag">IBM AIX</span>
-          <span class="tag">Solaris</span>
-          <span class="tag">CentOS / OEL</span>
-          <span class="tag">Cobbler / Kickstart</span>
+          <span class="tag">AWS GovCloud &amp; Commercial</span>
+          <span class="tag">Azure Public/Gov</span>
+          <span class="tag">GCP</span>
+          <span class="tag">OpenStack</span>
         </div>
       </div>
       <div class="skill-group">
         <h4>Security &amp; Compliance</h4>
         <div class="tags">
+          <span class="tag">DISA STIGs</span>
           <span class="tag">SOC 2</span>
-          <span class="tag">PCI</span>
+          <span class="tag">PCI-DSS</span>
           <span class="tag">CIS Benchmarks</span>
-          <span class="tag">Disaster Recovery</span>
-          <span class="tag">Network Security</span>
+          <span class="tag">Zero-Trust Architecture</span>
         </div>
       </div>
       <div class="skill-group">
-        <h4>Networking &amp; Storage</h4>
+        <h4>Infrastructure as Code</h4>
         <div class="tags">
-          <span class="tag">DNS</span>
-          <span class="tag">VPN</span>
-          <span class="tag">SIP</span>
-          <span class="tag">SAN (EMC)</span>
-          <span class="tag">Firewalls</span>
+          <span class="tag">Terraform</span>
+          <span class="tag">Packer</span>
+          <span class="tag">Ansible</span>
+          <span class="tag">Chef</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Secrets &amp; Identity</h4>
+        <div class="tags">
+          <span class="tag">HashiCorp Vault</span>
+          <span class="tag">IAM</span>
+          <span class="tag">LDAP</span>
+          <span class="tag">TACACS+</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>CI/CD &amp; Pipelines</h4>
+        <div class="tags">
+          <span class="tag">Concourse CI</span>
+          <span class="tag">Jenkins</span>
+          <span class="tag">CircleCI</span>
+          <span class="tag">GitOps</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Containers &amp; Orchestration</h4>
+        <div class="tags">
+          <span class="tag">Docker</span>
+          <span class="tag">HashiCorp Nomad</span>
+          <span class="tag">Consul</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Operating Systems</h4>
+        <div class="tags">
+          <span class="tag">RHEL</span>
+          <span class="tag">IBM AIX</span>
+          <span class="tag">Sun Solaris</span>
+          <span class="tag">CentOS</span>
+          <span class="tag">OEL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Monitoring &amp; HA</h4>
+        <div class="tags">
+          <span class="tag">AWS Security Hub</span>
+          <span class="tag">DR Planning</span>
+          <span class="tag">99.99% Uptime Design</span>
         </div>
       </div>
     </div>
@@ -384,14 +420,19 @@
     <h2>Certifications</h2>
     <div class="cert-grid">
       <div class="card">
-        <h3>Red Hat Certified Systems Administrator</h3>
+        <h3>Red Hat Certified Systems Administrator (RHCSA)</h3>
         <div class="org">Red Hat</div>
         <span class="period">2013</span>
       </div>
       <div class="card">
-        <h3>ITIL® Foundation Certificate in IT Service Management</h3>
-        <div class="org">ITIL</div>
+        <h3>ITIL® v3 Foundation Certificate</h3>
+        <div class="org">IT Service Management</div>
         <span class="period">2013</span>
+      </div>
+      <div class="card">
+        <h3>AWS Cloud Practitioner</h3>
+        <div class="org">Amazon Web Services</div>
+        <span class="period">2023</span>
       </div>
       <div class="card">
         <h3><a href="https://www.credly.com/badges/2d84494b-a536-4ed9-8e27-403209333201/linked_in_profile" target="_blank" rel="noopener">AWS Cloud Quest: Cloud Practitioner</a></h3>
@@ -412,6 +453,15 @@
         <h3><a href="https://www.credly.com/badges/60a85724-aaac-4278-a930-15c3ea73fd8a/linked_in_profile" target="_blank" rel="noopener">AWS Cloud Quest: Security</a></h3>
         <div class="org">Amazon Web Services</div>
         <span class="period">2023</span>
+      </div>
+      <div class="card">
+        <h3>HP Virtual Connect / HP SIM &amp; Insight Control</h3>
+        <div class="org">HP</div>
+        <span class="period">2012</span>
+      </div>
+      <div class="card">
+        <h3>MCSE — Windows 2000</h3>
+        <div class="org">Blue Ridge Community and Technical College</div>
       </div>
     </div>
   </section>
